@@ -1,0 +1,352 @@
+img.logo {
+    vertical-align: sub;
+}
+.nav {
+ margin: 30px ;
+ 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.email {
+    display:flex ;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 3pt;
+    margin-left: 45px;
+    border: solid black;
+    
+}
+img.a {
+   
+    margin-right: 30px;
+}
+#contact {
+    margin-top: 10px;
+}
+#what {
+    margin-top: 10px;
+}
+.info {
+    justify-content: space-between;
+}
+.mobile {
+    display:flex ;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: solid black;
+    
+
+}
+img.b {
+    margin-right: 20px;
+    vertical-align: sub;
+}
+#num {
+    margin-top: 10px;
+
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.liste {
+    display: flex;
+    
+}
+#it {
+    margin-left: 40px;
+}
+ul {
+    list-style-type: none;
+   
+}
+#information {
+    font-weight: 900;
+    font-family:  Raleway;
+    font-size: 30.1562px;
+    color: black;
+    top:431.661px ;
+    left: 324.18px;
+    text-align: center;
+}
+#learn {
+    font-weight: 900;
+    font-family:  Raleway;
+    font-size: 30.1562px;
+    color: black;
+    top:431.661px ;
+    left: 324.18px;
+    text-align: center;
+
+}
+.diplome {
+   border: none;
+   padding-top: 30px;
+   padding-right: 80px;
+   padding-left: 40px;
+   padding-bottom: 30px;
+   margin-top: 30px;
+   margin-bottom: 0px;
+   background-color: #10aac2;
+  
+}
+.colored {
+    
+    font-family: 'Raleway' ;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.concour {
+    border: none;
+    padding: 30px 140px 30px 30px;
+    background-color: #ffc000;
+    background-position: center;
+    margin-top: 15px;
+}
+.style {
+    color: #ffffff;
+
+}
+.brochure {
+    border: none;
+    padding: 30px 140px 30px 30px;
+    background-position: center;
+    margin-top: 15px;
+    background: 	rgb(30,144,255);
+
+}
+.journèe {
+    border: none;
+    padding: 30px 140px 30px 30px;
+    background-position: center;
+    margin-top: 15px;
+    background-color: rgb(100%, 64.7%, 0%);
+
+}
+.certif {
+    border: none;
+    margin-bottom: 0px;
+    padding: 30px 80px 30px 30px;
+    background-color:  #fc4c49;
+    margin-top: 15px;
+}
+.butt {
+    color: #333;
+    background-color: #f7f7f7;
+}
+.form {
+    color: #fff;
+    background-color: #00c1cf;
+}
+#ecole {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 45px;
+    color: #333333;
+    text-align: center;
+    margin-top: 90px;
+}
+#school {
+    text-align: center;
+    color: #757575;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.flex {
+    display: flex;
+}
+.image {
+    display: flex;
+}
+.hh {
+    color: #666666 ;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 21px;
+}
+.pa {
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+color: #666;
+}
+.part {
+  border: hidden;
+  margin: 40px;
+}
+.home {
+    margin-top: 20px;
+}
+#nos {
+    font-weight: 900;
+    margin-top: 23px;
+    margin-bottom: 0px;
+    color: #333333;
+    text-align: center;
+}
+.display {
+    display: block;
+} 
+.divison {
+border: none ;
+padding: 40px;
+background-color: yellow;
+margin: 80px;
+
+}
+.child {
+
+  color: #333;
+  font-weight: 900;
+  font-size: 30px;
+  
+   
+}
+.parent {
+    color: #333333;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.photo {
+    margin-top: 5cm;
+    margin-bottom: 2cm;
+}
+#activity {
+    font-weight: 900;
+    color: #333333;
+    margin-top: 23px;
+    margin-bottom: 13px;
+    text-align: center;
+    font-size: 26px;
+    line-height: 45px;
+}
+#php {
+    color: #333333;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: wavy;
+
+}
+.contenu {
+    display: block;
+}
+.contain {
+ display: block;
+}
+#club {
+    border-radius: 15px 50px;
+    background:  #73AD21;
+    padding: 20px;
+}
+.ex {
+    text-align: center;
+    text-decoration: overline;
+    font-weight: 900;
+    font-size: large;
+    font-style: oblique;
+}
+.family {
+    text-align: center;
+    
+    font-style: oblique;
+   
+
+}
+.retrouv {
+   border-radius: 15px 50px 30px;
+   background-color: #73AD21;
+   padding: 20px;
+   text-align: center;
+   font-style: italic;
+   font-weight: 600;
+   font-size: x-large;
+
+}
+#ex {
+    text-align: center;
+    text-decoration: overline;
+    font-weight: 900;
+    font-size: large;
+    font-style: oblique;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    margin-top: 15px;
+
+}
+.loisirs {
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  margin: 30px;
+  text-align: center;
+}
+#fun {
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: #666666;
+    font-size: 25px;
+}
+#fort {
+    font-style: italic;
+    font-weight: 600;
+    font-size: x-large;
+}
+#part {
+    color: #333333;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.propos {
+    display: flex;
+    border: none ;
+    background-color: hsl(0,0%,41%);
+    color: white;
+  padding: 40px 50px 20px 50px;
+    box-sizing: border-box;
+    color: #c9c4c3;
+    line-height: 21px;
+    font-size: 13px;
+    justify-content: space-between;
+}
+.me {
+    border: none;
+    padding: 30px 18px 25px 18px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+em {
+    background-color: #10aac2;
+    color: #fff;
+    font-style: normal;
+    font-size: 13px;
+    padding: 4px 7px;
+}
+body {
+    line-height: 1.6 ;
+    word-wrap: break-word;
+    border: none;
+  
+}
+.av {
+    justify-content: space-between;
+}
+.os {
+    justify-content: space-between;
+}
+    

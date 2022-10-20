@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>it.com</title>
 </head>
 <body>
-    <header>
+    <header >
         <!--nav bar-->
-        <div>
-            <p>
-            <img src="https://www.mairiebozel.fr/wp-content/uploads/2021/06/information-3.jpg" alt="logo" width="50px" height="30px">
+        <div   >
+            <p class="nav">
+            <img class="logo" src="https://www.mairiebozel.fr/wp-content/uploads/2021/06/information-3.jpg" alt="logo" width="50px" height="30px">
             <br>
            <strong> information </strong> 
            <br>
@@ -21,62 +22,69 @@
         </p>
 
         </div>
-        <div>
-           <img src="https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/4/e/84e4ff1c1a_102482_gmail-logo-definition.jpg" alt="email" width="50px" height="30px">
+        <div  class="email">
+           <img class="a" src="https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/8/4/e/84e4ff1c1a_102482_gmail-logo-definition.jpg" alt="email" width="50px" height="30px">
+           <div class="info">
            <p> Demande d'info </p> 
             
-       <h6>contact@it.com</h6>
+       <h6 id="contact">contact@it.com</h6>
        
-      <p> what's app : +216 52 124 606 </p>
+      <p id="what"> what's app : +216 52 124 606 </p>
+    </div>
     
        
 
        
         </div>
-        <div>
-            <img src="https://image.shutterstock.com/image-vector/telephone-icon-vector-phone-pictogram-600w-1754390936.jpg" alt="telephone" width="50px" height="30px">
+        <div class="mobile">
+            
+            <img class="b" src="https://image.shutterstock.com/image-vector/telephone-icon-vector-phone-pictogram-600w-1754390936.jpg" alt="telephone" width="50px" height="30px">
 
-        </div>
-        <div>
+
+       <div>
             <p>Infoline</p>
-            <h6>+216 72 233 777</h6>
+            <h6 id="num">+216 72 233 777</h6>
             <p>Mobile : +216 92 337 777</p>
         </div>
-      <hr>
+        </div>
+      
 
     </header>
+   <hr>
     <main>
         <!--listes-->
-        <section>
-            <ul>
-                <li>IT</li>
-                <li>licences
-                    <ul>
-                        <li>Business computing (BI)</li>
-                        <li>systeme d'informatique</li>
-                        <li>science d'informatique</li>
-                        <li>technologie d'informatique</li>
+        <section class="list">
+            <ul class="liste">
+                <li> <h2 id="it">IT</h2> </li>
+                <li> 
+                    <ul > <h2>licences</h2> 
+                        <li><h5>Business computing (BI)</h5> </li>
+                        <li> <h5>systeme d'informatique</h5> </li>
+                        <li><h5>science d'informatique</h5></li>
+                        <li> <h5>technologie d'informatique</h5> </li>
                     </ul>
                 </li>
-                <li>cycle ingenieur
+                <li> <h2>cycle ingenieur</h2> 
                     <ul>
-                        <li>cycle prèparatoire intègrè en informatique</li>
-                        <li>systèmes embarquès</li>
-                        <li>rèseaux informatiques</li>
-                        <li>gènie logiciel</li>
-                        <li>Business intelligence</li>
+                        <li><h5>cycle prèparatoire intègrè en informatique</h5> </li>
+                        <li><h5> systèmes embarquès</h5> </li>
+                        <li><h5>rèseaux informatiques</h5> </li>
+                        <li> <h5>gènie logiciel</h5></li>
+                        <li><h5>Business intelligence</h5></li>
                     </ul>
                 </li>
-                <li>masters
+                <li> <h2>masters</h2>
                     <ul>
-                        <li>sciences informatiques</li>
-                        <li>intelligence artificielle - informatique distribuèe</li>
-                        <li>gènie informatique - informatique Mobile</li>
-                        <li>Data science</li>
+                        <li><h5>sciences informatiques</h5></li>
+                        <li><h5>intelligence artificielle - informatique distribuèe</h5></li>
+                        <li><h5>gènie informatique - informatique Mobile</h5></li>
+                        <li><h5>Data science</h5></li>
                     </ul>
                 </li>
-                <li>admission</li>
-                <li>contact</li>
+                <li><h2>admission</h2></li>
+                <ul>
+                <li><h2>contact</h2></li>
+            </ul>
             </ul>
             <div>
                 <img src="https://cdn-icons-png.flaticon.com/512/59/59045.png?w=360" alt="mon espace" height="60px" width="40px">
@@ -87,106 +95,123 @@
         <!--title-->
         <section>
            <div>
-         <p>INFORMATION TECHNOLOGY</p>
-         <P>LEARNING BY DOING!</P>
+         <p id="information">INFORMATION TECHNOLOGY</p>
+         <P id="learn">LEARNING BY DOING!</P>
         </div>
         </section>
         <!--bloc-->
-        <section>
+        <section >
             <blockquote>
-                <div>
-                    <h3>DIPLOME AMERICAIN</h3>
-                    <P>Programme 2+2 pour obtenir un Bachelor Américain & MBA en ligne pour obtenir un MBA Américain.</P>
+                <div class="diplome">
+                    <h3 class="style">DIPLOME AMERICAIN</h3>
+                    <P class="colored">Programme 2+2 pour obtenir un Bachelor Américain & MBA en ligne pour obtenir un MBA Américain.</P>
                     <img src="https://www.larousse.fr/encyclopedie/data/images/1009488-Drapeau_des_%C3%89tats-Unis.jpg" alt="etat 1009488-Drapeau_des_%C3%89tats-Unis" width="70 px" height="30px">
-                    <h3> DOUBLE DIPLOME CANADIEN</h3>
-                    <p>Obtention et validation d’un double diplôme Canadien en Tunisie</p>
+                    <h3 class="style"> DOUBLE DIPLOME CANADIEN</h3>
+                    <p class="colored">Obtention et validation d’un double diplôme Canadien en Tunisie</p>
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/1200px-Flag_of_Canada_%28Pantone%29.svg.png" alt="canada" width="70px" height="30px">
-                    <h3>DIPLOME FRANçAIS</h3>
-                    <p>Programme 2+1 pour obtenir un diplôme Français.</p>
+                    <h3 class="style">DIPLOME FRANçAIS</h3>
+                    <p class="colored">Programme 2+1 pour obtenir un diplôme Français.</p>
                     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png" alt="france" width="70px" height="30px">
+                    <div>
+                    <button class="butt"> EN  SAVOIR PLUS </button>
+                </div>
                    
 
                 </div>
-                <div>
-                    <h3>CONCOURS D'ADMISSION</h3>
-                    <P>Concours d'admission, c'est gratuit et sans engagement </P>
-                    <button>FORMULAIRE</button>
+                <div class="concour">
+                    <h3 class="style">CONCOURS D'ADMISSION</h3>
+                    <P class="colored">Concours d'admission, c'est gratuit et sans engagement </P>
+                    <button class="form">FORMULAIRE</button>
                 </div>
-                <div> 
-                    <h3>
+                <div class="brochure"> 
+                    <h3 class="style">
                     INFOR BROCHURE
                 </h3>
-                <p>Téléchargez notre info brochure avec tous nos programmes.</p>
-                <button>TèLèCHARGER</button>
+                <p class="colored">Téléchargez notre info brochure avec tous nos programmes.</p>
+                <button class="butt">TèLèCHARGER</button>
                 </div>
-                <div>
-                    <h3>JOURNèe PORTES OUVERTES</h3>
-                    <p>Assistez aux présentations des cursus accessibles après le bac, tout en restant chez vous !</p>
-                    <button>PARTICIPER</button>
+                <div class="journèe">
+                    <h3 class="style">JOURNèe PORTES OUVERTES</h3>
+                    <p class="colored">Assistez aux présentations des cursus accessibles après le bac, tout en restant chez vous !</p>
+                    <button class="form">PARTICIPER</button>
                 </div>
-                <div>
-                    <h3>CERTIFICATIONS</h3>
-                    <p>Élargissez les perspectives de vos carrières grâce à des certificats reconnus mondialement.</p>
-                    <button>EN SAVOIR PLUS</button>
+                <div class="certif">
+                    <h3 class="style">CERTIFICATIONS</h3>
+                    <p class="colored">Élargissez les perspectives de vos carrières grâce à des certificats reconnus mondialement.</p>
+                    <button class="butt">EN SAVOIR PLUS</button>
                 </div>
             </blockquote>
         </section>
         <!--locolisation-->
         <section> 
             <div>
-            <h2>UNE ÉCOLE CONVIVIALE</h2>
+            <h2 id="ecole">UNE ÉCOLE CONVIVIALE</h2>
             <hr>
-            <p>IT est implantée dans un campus universitaire entre Nabeul et Hammamet, à 50 minutes de l’aéroport de Tunis Carthage. Notre réseau est également présent en France, au Canada et à New York. Nos diplômes sont reconnus en Tunisie et à l’étranger et accrédités par l’Ordre des Ingénieurs en Tunisie.</p>
+            <p id="school">IT est implantée dans un campus universitaire entre Nabeul et Hammamet, à 50 minutes de l’aéroport de Tunis Carthage. Notre réseau est également présent en France, au Canada et à New York. Nos diplômes sont reconnus en Tunisie et à l’étranger et accrédités par l’Ordre des Ingénieurs en Tunisie.</p>
         </div>
-            <div>
-                <img src="https://img2.freepng.fr/20180605/ghc/kisspng-logo-house-home-home-made-5b16140c5a9396.111397381528173580371.jpg" alt="home" width="30px" height="20px" >
-                <h2>	
+        <div class="flex">
+            <div class="part">
+                <div class="image">
+          
+                <img class="home" src="https://img2.freepng.fr/20180605/ghc/kisspng-logo-house-home-home-made-5b16140c5a9396.111397381528173580371.jpg" alt="home" width="30px" height="20px" >
+                <h2 class="hh">	
                     Hébergement</h2>
-                    <p>IT  propose des logements étudiants individuels ou collectifs, elle est conventionnée avec des foyers privés. Ils existent aussi des appartements meublés qui peuvent être loués près de l’école, une cellule d’accueil veille à trouver pour les étudiants un logement</p>
+                </div>
+                
+                   
+                    <p class="pa">IT  propose des logements étudiants individuels ou collectifs, elle est conventionnée avec des foyers privés. Ils existent aussi des appartements meublés qui peuvent être loués près de l’école, une cellule d’accueil veille à trouver pour les étudiants un logement</p>
+                </div>
+                
 
-            </div>
-            <div>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1KX7L_CXRgpFGRxsmHrNilq7zB9X7r6H7oS6T3hPNUOW2goYi4l3eudQiSQsA-cVb5fY&usqp=CAU" alt="soleil" width="30px" height="20px">
-                <h2>	
+            
+            <div class="part">
+                <div  class="image">
+                <img class="home" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1KX7L_CXRgpFGRxsmHrNilq7zB9X7r6H7oS6T3hPNUOW2goYi4l3eudQiSQsA-cVb5fY&usqp=CAU" alt="soleil" width="30px" height="20px">
+                <h2 class="hh">	
                     Climat et Géographie</h2>
-                <p>
+                </div>
+                <p class="pa">
                     Quel temps fait-il ? IT est implantée dans un campus universitaire entre Nabeul et Hammamet. Notre école bénéficie d’un climat méditerranéen doux et agréable  avec des températures moyennes. Très proche de la mer.	
                     </p>
             </div>
-            <div>
-                <img src="https://cdn5.vectorstock.com/i/1000x1000/90/69/road-to-the-tunnel-vector-21839069.jpg" alt="transport" width="30px" height="20px">
-                <h2>Transport</h2>
-                <p>L’aéroport de Tunis Carthage est le plus proche de IT, Ce trajet ne dure généralement qu’une petite heure. En outre, pour vous déplacer au sein de la ville, une diversité des moyens de transport en commun est offerte à un tarif abordable.</p>
+            <div class="part">
+                <div class="image">
+                <img class="home" src="https://cdn5.vectorstock.com/i/1000x1000/90/69/road-to-the-tunnel-vector-21839069.jpg" alt="transport" width="30px" height="20px">
+                <h2 class="hh">Transport</h2>
             </div>
+                <p class="pa">L’aéroport de Tunis Carthage est le plus proche de IT, Ce trajet ne dure généralement qu’une petite heure. En outre, pour vous déplacer au sein de la ville, une diversité des moyens de transport en commun est offerte à un tarif abordable.</p>
+            </div>
+        </div>
+
         </section>
         <!--informations-->
         <section>
-            <h2>NOS FORMATIONS :</h2>
+            <h2 id="nos">NOS FORMATIONS </h2>
             <hr>
-            <blockquote>
-                <div>
-                    <h3>licences</h3>
+            <blockquote class="display">
+                <div class="divison">
+                    <h3 class="child">LICENCES</h3>
                     <img src="https://istls.rnu.tn/useruploads/images/csm_Mobilite_programme-enchanges-entrant_1a8dfd16e7.jpg" alt="etudiant" width="300px" height="200px">
-                    <p>Nos licences comportent une grande partie de pratique permettant une insertion professionnelle immédiate dans le milieu de travaille</p>
+                    <p class="parent">Nos licences comportent une grande partie de pratique permettant une insertion professionnelle immédiate dans le milieu de travaille</p>
                     <button disabled="disabled">EN SAVOIR PLUS</button>
 
                 </div>
-                <div>
-                    <h3>MASTERS</h3>
+                <div class="divison">
+                    <h3 class="child">MASTERS</h3>
                     <img src="https://www.urssaf.fr/portail/files/live/sites/urssaf/files/Menu_gauche/Etudiants%20350%20x%20213.jpg" alt="masters" width="300px" height="200px">
-                    <p>Nos mastères professionnels permettent de former des responsable et des chefs de projets qui répondent au besoins des entreprises</p>
+                    <p class="parent">Nos mastères professionnels permettent de former des responsable et des chefs de projets qui répondent au besoins des entreprises</p>
                     <button disabled="disabled">EN SAVOIR PLUS</button>
                 </div>
-                <div>
-                    <h3>CYCLE PRÉPARATOIRE</h3>
+                <div class="divison">
+                    <h3 class="child">CYCLE PRÉPARATOIRE</h3>
                     <img src="https://www.studyrama.com/IMG/arton108800.png" alt="cycle " width="300px" height="200px">
-                    <p>Notre cycle préparatoire intégré permet de préparer le futur élève ingénieur aux études d’ingénieur avec une formation scientifique et technique.</p>
+                    <p class="parent">Notre cycle préparatoire intégré permet de préparer le futur élève ingénieur aux études d’ingénieur avec une formation scientifique et technique.</p>
                     <button disabled="disabled">EN SAVOIR PLUS</button>
                 </div>
-                <div>
-                    <h3>CYCLES INGÉNIEURS</h3>
+                <div class="divison">
+                    <h3 class="child">CYCLES INGÉNIEURS</h3>
                     <img src="https://istls.rnu.tn/useruploads/images/pack-etudiants.jpg" alt="ingenieur" width="300px" height="200px">
-                    <p>Nos cycles ingénieurs offre à nos étudiants une formation approfondie avec plusieurs avantages et une forte employabilité.</p>
+                    <p class="parent">Nos cycles ingénieurs offre à nos étudiants une formation approfondie avec plusieurs avantages et une forte employabilité.</p>
                     <button disabled="disabled">EN SAVOIR PLUS</button>
                 </div>
                 
@@ -194,8 +219,8 @@
             </blockquote>
         </section>
         <!--images-->
-        <section>
-            <p>voici les photos de nos ètudiants</p>
+        <section class="photo">
+          
             <img src="https://www.etudiantenfrance.com/wp-content/uploads/2018/09/XVM4e8b0926-b968-11e7-9ef0-d3e21654415a.jpg" alt="pic1" height="500px" width="400px">
             <img src="https://media.sudouest.fr/5784857/1000x500/so-5f7700cb66a4bd5d0ad0c6dd-ph0.jpg?v=1631170712" alt="pic2" height="500px" width="400px">
             <img src="https://www.essentiel-sante-magazine.fr/wp-content/uploads/2021/11/esm.fr-sante-des-etudiants-02-11-2021-credit-getty-images-498x281.jpg" alt="pic3" height="500px" width="400px">
@@ -207,44 +232,53 @@
         <!--activitès-->
         <section>
             <div>
-            <h2>NOS ACTIVITÉS</h2>
-            <p>Notre ècole IT organise à leur ètudiants plusieurs des activitès par exemple :</p>
-            <div> 
-                <h3>Les clubs :</h3>
-                <h5>✅ Level Up </h5>
-                <h5> ✅ IT English Club </h5>
-                    <h5> ✅ Tunivisions </h5>
-                        <h5> ✅ Enactus </h5>
-                            <h5> ✅ IT Dev </h5>
-                                <h5> ✅ Club de divertissement (Danse, chant...) </h5>
-                                    <h5> ✅ DTI Développe Ton Idée </h5>
-                                        <h5>✅ Google Developer Student Club </h5>
+            <h2 id="activity">NOS ACTIVITÉS</h2>
+            <hr>
+            <p id="php">Notre ècole IT organise à leur ètudiants plusieurs des activitès par exemple :</p>
+            <blockquote class="contenu">
+            <div id="club"> 
+                <h3 class="ex">Les clubs :</h3>
+                <h5 class="family">✅ Level Up </h5>
+                <h5 class="family"> ✅ IT English Club </h5>
+                    <h5 class="family"> ✅ Tunivisions </h5>
+                        <h5 class="family"> ✅ Enactus </h5>
+                            <h5 class="family"> ✅ IT Dev </h5>
+                                <h5 class="family"> ✅ Club de divertissement (Danse, chant...) </h5>
+                                    <h5 class="family"> ✅ DTI Développe Ton Idée </h5>
+                                        <h5 class="family">✅ Google Developer Student Club </h5>
             </div>
-            <div>
-            <h3>des  èvènements :  </h3>
+            <div class="contain">
+            <h3 id="ex">des  èvènements :  </h3> 
+            <div class="retrouv">
             <img src="https://images.nrpyrenees.fr/api/v1/images/view/6100cd703e4546514d26013f/hd/image.jpg?v=1" alt="Retrouvailles" width="420" height="345">
           <p >  <strong>Journée Retrouvailles 2020</strong>
         </p>
+    </div>
+    <div class="retrouv">
         <img src="https://cdn2.webmanagercenter.com/wmc/wp-content/uploads/2015/iace-journee-entreprise-faycel-derbel.jpg" alt="entreprises" width="420" height="345">
         <p >  <strong>Journées Entreprises 2019</strong>
         </p>
+    </div>
+    <div class="retrouv">
         <img src="https://www.jawharafm.net/fr/imageResize/resize/francais_image2_69835_1562531922.png" alt="fete" width="420" height="345">
         <p >  <strong>Fête de Remise des diplômes 2019</strong>
         </p>
+    </div>
         </div>
-        <div>
-            <h3>les loisirs :</h3>
+        <div class="loisirs">
+            <h3 id="fun">les loisirs </h3>
             <img src="https://www.agglo-nevers.net/wp-content/uploads/2019/09/37255327426_8164d53c4e_o.jpg" alt="JOURNèe" width="420" height="345">
-           <p><strong>Journée d’intégration des étudiants 2019</strong></p>
+           <p><strong id="fort">Journée d’intégration des étudiants 2019</strong></p>
         </div>
 
         </div>
+    </blockquote>
 
         </section>
         <!--partenaires-->
         <section>
             <div>
-                <h2>NOS PARTENAIRES</h2>
+                <h2 id="part">NOS PARTENAIRES</h2>
                 <hr>
             </div>
             <div>
@@ -262,11 +296,13 @@
                     <img width="300" height="169" src="https://i0.wp.com/itbs.tn/hojoseq/2020/04/association-euro-mediterraneenne-logo.jpg?fit=300%2C169&amp;ssl=1" class="vc_single_image-img attachment-full" alt="">
                     <img width="300" height="169" src="https://i2.wp.com/itbs.tn/hojoseq/2020/04/hr-house-logo.jpg?fit=300%2C169&amp;ssl=1" class="vc_single_image-img attachment-full" alt="">
                 </figure>
-                <hr>
+                
             </div>
         </section>
+        <hr>
     </main>
     <footer>
+        <div class="propos">
         <div>
             <h3>À PROPOS</h3>
             <p>
@@ -278,14 +314,15 @@
                <br>
                 
             </p>
-            <p>IT est implantée dans un campus universitaire entre Nabeul et Hammamet. Notre réseau est également présent en France, Canada et New York.</p>
+            <p >IT est implantée dans un <br> campus universitaire entre Nabeul <br> et Hammamet. Notre réseau est <br> également présent en France, <br> Canada et New York.</p>
             <img src="https://i0.wp.com/itbs.tn/hojoseq/2020/04/yschools-logo-blanc.png?w=1200&amp;ssl=1" style="padding-right:10px" width="80" height="30">
             <img src="https://i0.wp.com/itbs.tn/hojoseq/2022/09/nau-light.png?w=1200&amp;ssl=1" width="150" height="28">
 
         </div>
-        <div>
+        <div class="av">
             <h3>NOUS CONTACTER</h3>
             <p>Pour toute information complémentaire, n’hésitez pas à nous contacter.</p>
+         <div class="os">
             <p>
                 <img src="data:image/png;base64,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" alt="loc"  height="30 px" width="50px">
                 Av. Dali Jezi, 8062 Nabeul, Tunisie
@@ -303,42 +340,60 @@
  contact@itbs.tn
             </p>
         </div>
+        </div>
         
         <div>
     <h3>LIENS UTILES</h3>
-        </div>
-        <div> 
+       
+         
         <ul>
             <li>actualitèes</li>
+            <br>
             <li>espace ètudiant</li>
+            <br>
             <li>espace enseignat</li>
+            <br>
             <li>webemail</li>
+            <br>
             <li>politique de confidentalitès</li>
+            <br>
             <li>nous contacter</li>
+            <br>
            
         </ul>
     </div>
+    
     <div>
         <h3>NOS HORAIRES</h3>
         <p>
             lundi : 8h-18h
             <br>
+            <hr>
             mardi : 8h-18h
+            
             <br>
+            <hr>
+
             mercredi : 8h-18h
             <br>
+            <hr>
             jeudi : 8h_18h
             <br>
+            <hr>
             vendredi : 8h-18h
             <br>
+            <hr>
             samedi : 8h_13h
             <br>
-            dimanche : fermè
+            <hr>
+            dimanche : <em>Fermé</em> 
             <br>
+            <hr>
         </p>
     </div>
-    <div>
-        <p>Copyright © 2022 ITBS. Designed by me. All Rights Reserved.</p>
+</div>
+    <div class="me">
+        <p>Copyright © 2022 IT. Designed by <strong> <a href="https://www.facebook.com/yassmine.loussaief.982/"> Yassmine Loussaief</a></strong> . All Rights Reserved.</p>
     </div>
     </footer>
     
