@@ -349,4 +349,10 @@ body {
 .os {
     justify-content: space-between;
 }
+.span {
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
     

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width =, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>it.com</title>
 </head>
@@ -88,7 +88,7 @@
             </ul>
             <div>
                 <img src="https://cdn-icons-png.flaticon.com/512/59/59045.png?w=360" alt="mon espace" height="60px" width="40px">
-                <a href="mon espace">mon espace</a>
+                <a id="idm" onclick=" espace()" href="mon espace">mon espace</a>
                
             </div>
         </section>
@@ -113,7 +113,7 @@
                     <p class="colored">Programme 2+1 pour obtenir un diplôme Français.</p>
                     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png" alt="france" width="70px" height="30px">
                     <div>
-                    <button class="butt"> EN  SAVOIR PLUS </button>
+                    <button class="butt" onclick= "savoir()"> EN  SAVOIR PLUS </button>
                 </div>
                    
 
@@ -121,24 +121,24 @@
                 <div class="concour">
                     <h3 class="style">CONCOURS D'ADMISSION</h3>
                     <P class="colored">Concours d'admission, c'est gratuit et sans engagement </P>
-                    <button class="form">FORMULAIRE</button>
+                    <button class="form" onclick="admission ()">FORMULAIRE</button>
                 </div>
                 <div class="brochure"> 
                     <h3 class="style">
                     INFOR BROCHURE
                 </h3>
                 <p class="colored">Téléchargez notre info brochure avec tous nos programmes.</p>
-                <button class="butt">TèLèCHARGER</button>
+                <button class="butt" onclick=" tèlè () ">TèLèCHARGER</button>
                 </div>
                 <div class="journèe">
                     <h3 class="style">JOURNèe PORTES OUVERTES</h3>
                     <p class="colored">Assistez aux présentations des cursus accessibles après le bac, tout en restant chez vous !</p>
-                    <button class="form">PARTICIPER</button>
+                    <button class="form" onclick="portes ()">PARTICIPER</button>
                 </div>
                 <div class="certif">
                     <h3 class="style">CERTIFICATIONS</h3>
                     <p class="colored">Élargissez les perspectives de vos carrières grâce à des certificats reconnus mondialement.</p>
-                    <button class="butt">EN SAVOIR PLUS</button>
+                    <button class="butt" onclick="certf ()">EN SAVOIR PLUS</button>
                 </div>
             </blockquote>
         </section>
@@ -190,29 +190,38 @@
             <hr>
             <blockquote class="display">
                 <div class="divison">
-                    <h3 class="child">LICENCES</h3>
+                    <h3 class="child" >LICENCES</h3>
                     <img src="https://istls.rnu.tn/useruploads/images/csm_Mobilite_programme-enchanges-entrant_1a8dfd16e7.jpg" alt="etudiant" width="300px" height="200px">
-                    <p class="parent">Nos licences comportent une grande partie de pratique permettant une insertion professionnelle immédiate dans le milieu de travaille</p>
-                    <button disabled="disabled">EN SAVOIR PLUS</button>
+                    <p class="parent" >Nos licences comportent une grande partie de pratique permettant une insertion professionnelle immédiate dans le milieu de travaille</p>
+                    <button id="span" onclick="li()">
+                        <span class="heart"  >&#10084;</span>
+                     </button>
 
                 </div>
                 <div class="divison">
                     <h3 class="child">MASTERS</h3>
                     <img src="https://www.urssaf.fr/portail/files/live/sites/urssaf/files/Menu_gauche/Etudiants%20350%20x%20213.jpg" alt="masters" width="300px" height="200px">
                     <p class="parent">Nos mastères professionnels permettent de former des responsable et des chefs de projets qui répondent au besoins des entreprises</p>
-                    <button disabled="disabled">EN SAVOIR PLUS</button>
+                    <button id="mum" onclick="mas()"  >
+                        <span class="heart"   >&#10084;</span>
+                    </button>
                 </div>
                 <div class="divison">
                     <h3 class="child">CYCLE PRÉPARATOIRE</h3>
                     <img src="https://www.studyrama.com/IMG/arton108800.png" alt="cycle " width="300px" height="200px">
                     <p class="parent">Notre cycle préparatoire intégré permet de préparer le futur élève ingénieur aux études d’ingénieur avec une formation scientifique et technique.</p>
-                    <button disabled="disabled">EN SAVOIR PLUS</button>
+                    <button id="input" onclick="cycle()"  >
+                        <span class="heart"  >&#10084;</span>
+                    </button>
                 </div>
                 <div class="divison">
                     <h3 class="child">CYCLES INGÉNIEURS</h3>
                     <img src="https://istls.rnu.tn/useruploads/images/pack-etudiants.jpg" alt="ingenieur" width="300px" height="200px">
-                    <p class="parent">Nos cycles ingénieurs offre à nos étudiants une formation approfondie avec plusieurs avantages et une forte employabilité.</p>
-                    <button disabled="disabled">EN SAVOIR PLUS</button>
+                    <p class="parent"> 
+                        Nos cycles ingénieurs offre à nos étudiants une formation approfondie avec plusieurs avantages et une forte employabilité.  </p>
+                    <button id="button" onclick="change()">
+                        <span class="heart"  >&#10084;</span>
+                    </button>
                 </div>
                 
 
@@ -396,6 +405,9 @@
         <p>Copyright © 2022 IT. Designed by <strong> <a href="https://www.facebook.com/yassmine.loussaief.982/"> Yassmine Loussaief</a></strong> . All Rights Reserved.</p>
     </div>
     </footer>
+    <script src="script.js">
+        
+    </script>
     
 </body>
 </html>
